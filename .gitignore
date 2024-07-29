@@ -1,0 +1,72 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Go modules
+vendor/
+*.mod
+*.sum
+
+# Logs
+*.log
+
+# IDE specific files
+.idea/
+*.iml
+.vscode/
+*.code-workspace
+
+# Dependency directories
+Godeps/
+vendor/
+
+# Node modules (if you have frontend code)
+node_modules/
+
+# Temporary files and directories
+*.tmp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# OS-specific files
+*.DS_Store
+*.AppleDouble
+*.LSOverride
+._*
+
+# Windows thumbnail cache files
+Thumbs.db
+
+# JetBrains IDEs
+*.iws
+.idea/
+.idea/*
+
+# VSCode IDE
+.vscode/
+.code-workspace
+
+# LiteIDE project files
+*.pro.user
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# Vim
+.*.swp
+.*.swo
